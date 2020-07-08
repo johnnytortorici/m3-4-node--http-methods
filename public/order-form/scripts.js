@@ -48,7 +48,7 @@ const handleSubmit = (event) => {
     size: size.value,
     givenName: givenName.value,
     surname: surname.value,
-    email: email,
+    email: email.value,
     address: address.value,
     city: city.value,
     province: province.value,

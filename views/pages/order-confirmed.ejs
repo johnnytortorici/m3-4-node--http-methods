@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="/order-form/styles.css" />
+</head>
+
+<body>
+    <main>
+        <h1>Order Confirmation</h1>
+
+        <p>Thanks for ordering, <%= `${order.givenName} ${order.surname}` %>!</p>
+        <p>Your order of <%= order.order %> will be sent to your home in <%= order.province %>, Canada. Thank you for participating!</p>
+    </main>
+</body>
+</html>
